@@ -1,0 +1,10 @@
+[2025-02-12 08:14:22] INFO User johannes logged in successfully
+[2025-02-12 08:17:55] WARNING Failed login attempt for user: maria
+[2025-02-12 08:18:10] WARNING Failed login attempt for user: test
+[2025-02-12 08:22:01] INFO User erik logged out
+[2025-02-12 09:01:44] ERROR Could not connect to database
+[2025-02-12 09:13:55] WARNING Failed login attempt for user: admin
+[2025-02-12 09:15:12] INFO Scheduled backup completed
+[2025-02-12 09:20:43] WARNING Low disk space on /dev/sda1
+[2025-02-12 09:25:10] WARNING Failed login attempt for user: guest
+[2025-02-12 09:27:30] INFO User maria logged in successfully

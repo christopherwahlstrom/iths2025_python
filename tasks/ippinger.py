@@ -15,7 +15,7 @@ with open("ip.txt", "r") as file:
 
 with open("results.txt", "w") as results:
     for ip in ips:
-        if ping_ip(ip):
+        if ping_ip(ip) == 0:
             result = f"{ip} is available"
         else:
             result = f"{ip} is unavailable"
