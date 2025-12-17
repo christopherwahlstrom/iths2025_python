@@ -4,7 +4,7 @@
 # 10 = 1010
 # 7 =  0111
 # 13 = 1101 
-key = b"google"
+key = "google".encode()
 buf =  b""
 buf += b"\xfc\x48\x83\xe4\xf0\xe8\xcc\x00\x00\x00\x41\x51"
 buf += b"\x41\x50\x52\x48\x31\xd2\x65\x48\x8b\x52\x60\x48"
@@ -64,4 +64,5 @@ print(cipher)
 print("")
 
 decrypted = xor_encrypt(cipher, key)
-print(decrypted == buf)
+print(decrypted)
+print(buf)
