@@ -1,0 +1,3 @@
+Detta är en hemlig fil.
+Ingen får läsa detta!
+Lösenordet är: Pizza12
