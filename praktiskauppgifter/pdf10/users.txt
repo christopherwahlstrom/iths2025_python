@@ -1,0 +1,11 @@
+Användare: Kalle Karlsson
+Email: kalle.karlsson@example.com
+Telefon: 070-1234567
+
+Användare: Lisa Andersson
+Email: lisa.andersson@test.se
+Roll: Admin
+
+Här är en annan adress: support@företaget.com som vi kan kontakta.
+Och en felaktig adress: kalle@com (saknar domän)
+En till: info@sakerhet.org
