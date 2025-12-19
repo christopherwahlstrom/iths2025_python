@@ -19,3 +19,5 @@ python main.py
 ```
 
 Scriptet skriver ut varje steg i terminalen och avslutar med att visa flaggan.
+
+Flag är : FLAG{automation_beats_manual}
